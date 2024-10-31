@@ -451,154 +451,6 @@
 				)
 			)
 		)
-		(symbol "Device:FerriteBead_Small"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "FB"
-				(at 1.905 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "FerriteBead_Small"
-				(at 1.905 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Ferrite bead, small symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "L ferrite bead inductor filter"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Inductor_* L_* *Ferrite*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "FerriteBead_Small_0_1"
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy 0 -0.7874)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0.889) (xy 0 1.2954)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.8288 0.2794) (xy -1.1176 1.4986) (xy 1.8288 -0.2032) (xy 1.1176 -1.4224) (xy -1.8288 0.2794)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "FerriteBead_Small_1_1"
-				(pin passive line
-					(at 0 2.54 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:L_Small"
 			(pin_numbers hide)
 			(pin_names
@@ -3668,16 +3520,6 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 189.23) (xy 133.35 189.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1a537691-17dd-45b6-8515-89fb8b1357a2")
-	)
-	(wire
-		(pts
 			(xy 209.55 133.35) (xy 209.55 135.89)
 		)
 		(stroke
@@ -4388,7 +4230,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 189.23) (xy 125.73 190.5)
+			(xy 127 171.45) (xy 127 172.72)
 		)
 		(stroke
 			(width 0)
@@ -5038,16 +4880,6 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 173.99) (xy 133.35 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "93af3632-0956-4f4e-8565-3389c5371a8d")
-	)
-	(wire
-		(pts
 			(xy 132.08 45.72) (xy 132.08 62.23)
 		)
 		(stroke
@@ -5095,16 +4927,6 @@
 			(type default)
 		)
 		(uuid "968c52eb-3eee-40f3-9d27-81aa3b119727")
-	)
-	(wire
-		(pts
-			(xy 132.08 173.99) (xy 133.35 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "96e61926-1ad9-4c00-93b7-0a3a81b3ec1a")
 	)
 	(wire
 		(pts
@@ -5598,7 +5420,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 189.23) (xy 125.73 189.23)
+			(xy 127 171.45) (xy 134.62 171.45)
 		)
 		(stroke
 			(width 0)
@@ -5715,16 +5537,6 @@
 			(type default)
 		)
 		(uuid "c7a0745f-d47a-4517-b069-d9e65167835b")
-	)
-	(wire
-		(pts
-			(xy 125.73 173.99) (xy 125.73 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c8c96024-08f2-4035-9daf-b4c2a27f948a")
 	)
 	(wire
 		(pts
@@ -5908,16 +5720,6 @@
 	)
 	(wire
 		(pts
-			(xy 127 173.99) (xy 125.73 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dc6d016c-84ec-41d1-b446-d84ef0ab2f4a")
-	)
-	(wire
-		(pts
 			(xy 252.73 71.12) (xy 259.08 71.12)
 		)
 		(stroke
@@ -5998,7 +5800,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 189.23) (xy 133.35 190.5)
+			(xy 134.62 171.45) (xy 134.62 172.72)
 		)
 		(stroke
 			(width 0)
@@ -9081,71 +8883,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 133.35 175.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "59bc07d9-658d-45cf-9e46-43add5449deb")
-		(property "Reference" "#PWR056"
-			(at 133.35 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDP"
-			(at 133.35 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 133.35 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 133.35 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 133.35 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fdf80ad8-39e2-4926-a1d7-ad7a537bb373")
-		)
-		(instances
-			(project "main_board"
-				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/5eb6c29b-8224-45cf-85c8-67766563dd51"
-					(reference "#PWR056")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Library:LM3281YFQR")
 		(at 63.5 175.26 0)
 		(unit 1)
@@ -10231,73 +9968,6 @@
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/5eb6c29b-8224-45cf-85c8-67766563dd51"
 					(reference "#PWR064")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:FerriteBead_Small")
-		(at 129.54 173.99 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7b6c674d-f710-4243-9325-d6a41e9097ae")
-		(property "Reference" "FB1"
-			(at 129.5781 167.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "120R@100MHz"
-			(at 129.5781 170.18 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
-			(at 129.54 172.212 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 129.54 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Ferrite bead, small symbol"
-			(at 129.54 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "22ceac11-9f22-41c5-a7cf-c50ed4ef2e9e")
-		)
-		(pin "1"
-			(uuid "2eb23746-badd-463e-a8f7-4e12b445fa6b")
-		)
-		(instances
-			(project ""
-				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/5eb6c29b-8224-45cf-85c8-67766563dd51"
-					(reference "FB1")
 					(unit 1)
 				)
 			)
@@ -11745,73 +11415,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:FerriteBead_Small")
-		(at 129.54 189.23 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a1726e87-84d6-40bb-9e33-4327a7eb4610")
-		(property "Reference" "FB2"
-			(at 129.5781 182.88 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "120R@100MHz"
-			(at 129.5781 185.42 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
-			(at 129.54 187.452 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 129.54 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Ferrite bead, small symbol"
-			(at 129.54 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e5b4a4d8-b0c3-4d44-bad3-3d2d5c0c16e3")
-		)
-		(pin "1"
-			(uuid "d51df209-d96f-48d1-94b8-56d96bf1d3b0")
-		)
-		(instances
-			(project "main_board"
-				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/5eb6c29b-8224-45cf-85c8-67766563dd51"
-					(reference "FB2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 259.08 34.29 270)
 		(unit 1)
@@ -12343,72 +11946,6 @@
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/5eb6c29b-8224-45cf-85c8-67766563dd51"
 					(reference "#PWR065")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 125.73 175.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b7f3444f-eabc-49e1-9236-8654ddac65d3")
-		(property "Reference" "#PWR062"
-			(at 125.73 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 125.73 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 125.73 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 125.73 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 125.73 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a2617c05-ed0f-4981-86ab-08617f1c3477")
-		)
-		(instances
-			(project "main_board"
-				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/5eb6c29b-8224-45cf-85c8-67766563dd51"
-					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -13085,7 +12622,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 125.73 190.5 0)
+		(at 127 172.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13094,7 +12631,7 @@
 		(fields_autoplaced yes)
 		(uuid "c66c9ee5-f6f1-4bc3-9af8-55b6b9485976")
 		(property "Reference" "#PWR0143"
-			(at 125.73 196.85 0)
+			(at 127 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13103,7 +12640,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 125.73 195.58 0)
+			(at 127 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13111,7 +12648,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 125.73 190.5 0)
+			(at 127 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13120,7 +12657,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 125.73 190.5 0)
+			(at 127 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13129,7 +12666,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 125.73 190.5 0)
+			(at 127 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13217,7 +12754,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 133.35 190.5 0)
+		(at 134.62 172.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13225,7 +12762,7 @@
 		(dnp no)
 		(uuid "c964773e-109d-4b1f-9052-5c798e70fee7")
 		(property "Reference" "#PWR057"
-			(at 133.35 196.85 0)
+			(at 134.62 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13234,7 +12771,7 @@
 			)
 		)
 		(property "Value" "GNDP"
-			(at 133.35 195.58 0)
+			(at 134.62 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13242,7 +12779,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 133.35 190.5 0)
+			(at 134.62 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13251,7 +12788,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 133.35 190.5 0)
+			(at 134.62 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13260,7 +12797,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 133.35 190.5 0)
+			(at 134.62 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
