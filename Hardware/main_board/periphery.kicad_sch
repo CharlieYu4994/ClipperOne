@@ -7603,7 +7603,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:TF-101A-P3"
+		(property "Footprint" "Library:TF-SMD_TF-110"
 			(at 292.1 34.29 0)
 			(effects
 				(font
