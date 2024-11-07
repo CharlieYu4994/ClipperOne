@@ -2533,7 +2533,7 @@
 				)
 			)
 		)
-		(symbol "Device:LED_ABGR"
+		(symbol "Device:LED_RBGA"
 			(pin_names
 				(offset 0) hide)
 			(exclude_from_sim no)
@@ -2547,7 +2547,7 @@
 					)
 				)
 			)
-			(property "Value" "LED_ABGR"
+			(property "Value" "LED_RBGA"
 				(at 0 -8.89 0)
 				(effects
 					(font
@@ -2573,7 +2573,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "RGB LED, anode/blue/green/red"
+			(property "Description" "RGB LED, red/blue/green/anode"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2600,7 +2600,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "LED_ABGR_0_0"
+			(symbol "LED_RBGA_0_0"
 				(text "B"
 					(at -1.905 -6.35 0)
 					(effects
@@ -2626,7 +2626,7 @@
 					)
 				)
 			)
-			(symbol "LED_ABGR_0_1"
+			(symbol "LED_RBGA_0_1"
 				(polyline
 					(pts
 						(xy -1.27 -5.08) (xy -2.54 -5.08)
@@ -2958,11 +2958,11 @@
 					)
 				)
 			)
-			(symbol "LED_ABGR_1_1"
+			(symbol "LED_RBGA_1_1"
 				(pin passive line
-					(at 5.08 0 180)
+					(at -5.08 5.08 0)
 					(length 2.54)
-					(name "A"
+					(name "RK"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3014,9 +3014,9 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 5.08 0)
+					(at 5.08 0 180)
 					(length 2.54)
-					(name "RK"
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -9713,6 +9713,80 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED_RBGA")
+		(at 90.17 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8eeeb10e-463c-4a90-aceb-d0660d346db0")
+		(property "Reference" "D10"
+			(at 90.17 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_RBGA"
+			(at 90.17 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Library:LTST-C19HE1WT_LTO"
+			(at 90.17 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 90.17 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED, red/blue/green/anode"
+			(at 90.17 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dff79d5f-dfa9-46d7-9bda-ea50c1b8a297")
+		)
+		(pin "4"
+			(uuid "d536c752-2492-4728-b16a-44caf07c3266")
+		)
+		(pin "2"
+			(uuid "59a2b086-47f9-4dfd-ae99-f57b7b534c47")
+		)
+		(pin "3"
+			(uuid "992ac5cf-6ab9-4b44-a136-6ac802873bfa")
+		)
+		(instances
+			(project ""
+				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/07054158-43be-4dab-a684-c4a4bca9b970"
+					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 250.19 111.76 0)
 		(unit 1)
@@ -13256,80 +13330,6 @@
 			(project "main_board"
 				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/07054158-43be-4dab-a684-c4a4bca9b970"
 					(reference "D22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED_ABGR")
-		(at 90.17 49.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f8c67972-ac47-45b9-b02a-887d98df18ed")
-		(property "Reference" "D10"
-			(at 90.17 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED_ABGR"
-			(at 90.17 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Library:LED_PLCC-4_1.5x1.5mm_CW"
-			(at 90.17 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 90.17 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RGB LED, anode/blue/green/red"
-			(at 90.17 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a7e287b4-fb1d-414a-9e29-b39812728064")
-		)
-		(pin "4"
-			(uuid "14655ede-a15d-4c64-a81d-cd58a08a3d81")
-		)
-		(pin "3"
-			(uuid "6fea8f8c-0ea5-407f-aba1-8c9841ef3952")
-		)
-		(pin "1"
-			(uuid "6c230457-23c1-4d5d-9061-06a2505709bc")
-		)
-		(instances
-			(project ""
-				(path "/16216a68-6dea-41d7-8e15-2cc84f72f8e2/07054158-43be-4dab-a684-c4a4bca9b970"
-					(reference "D10")
 					(unit 1)
 				)
 			)
