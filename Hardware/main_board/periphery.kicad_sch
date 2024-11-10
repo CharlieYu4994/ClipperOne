@@ -7603,7 +7603,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:TF-SMD_TF-110"
+		(property "Footprint" "Library:CONN_503398-1892_MOL"
 			(at 292.1 34.29 0)
 			(effects
 				(font
