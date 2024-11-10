@@ -7879,7 +7879,7 @@
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R11"
-			(at 0 -1.17 360)
+			(at 0 -1.17 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "83f7a214-c859-4a76-a2fd-35e318d8598b")
@@ -7891,7 +7891,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 0 1.17 360)
+			(at 0 1.17 0)
 			(layer "F.Fab")
 			(uuid "2a806217-76a5-43a8-a684-7d4b13336001")
 			(effects
@@ -8046,7 +8046,7 @@
 			(uuid "f82ad242-8eda-4c85-95d8-b4f37af02e00")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "6bbabead-880c-45ff-b5cf-b4fed4e3268c")
 			(effects
@@ -13603,7 +13603,7 @@
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R42"
-			(at 0 -1.17 360)
+			(at 0 -1.17 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "30fc3e5a-6baf-44ee-a836-3df3c6e8373d")
@@ -13615,7 +13615,7 @@
 			)
 		)
 		(property "Value" "47K"
-			(at 0 1.17 360)
+			(at 0 1.17 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "63dfa20a-9913-433a-bc1e-9477fb244bf0")
@@ -13771,7 +13771,7 @@
 			(uuid "2ca3a1f5-9514-415b-9471-6e67de07a8cc")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "cd2baa47-ae02-4b77-92ab-90923e72a42f")
 			(effects
@@ -16220,7 +16220,7 @@
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R10"
-			(at 0 -1.17 360)
+			(at 0 -1.17 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "03dbd54c-40a7-4b87-ac2b-ae37eb09d6bb")
@@ -16232,7 +16232,7 @@
 			)
 		)
 		(property "Value" "30.1K"
-			(at 0 1.17 360)
+			(at 0 1.17 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "6fa6e77c-7fdf-4f19-b840-35dd70fbb1a0")
@@ -16388,7 +16388,7 @@
 			(uuid "080823cf-19a6-4a8b-9aba-18d4a8ea5925")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "3c873302-0794-4f6d-a32c-7a7b07ae1578")
 			(effects
@@ -69396,7 +69396,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "Flipper Zero DEV"
+	(gr_text "Clipper One DEV"
 		(at 172.29 91.46 0)
 		(layer "F.SilkS")
 		(uuid "a388b460-fe62-4824-9391-8e62f0f8a4d8")
