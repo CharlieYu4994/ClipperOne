@@ -16640,7 +16640,7 @@
 	(footprint "Logos:charlieyu"
 		(layer "F.Cu")
 		(uuid "b3c6fbe3-5a36-4932-b5cb-a4ce9f4e61e4")
-		(at 185.3 94.1)
+		(at 185.19 92.17)
 		(property "Reference" "RFF**"
 			(at 0 -0.5 0)
 			(unlocked yes)
@@ -69384,7 +69384,7 @@
 			(justify top)
 		)
 	)
-	(gr_text "REV: DEV-0"
+	(gr_text "REV: RELEASE-1A"
 		(at 131.31 91.07 0)
 		(layer "F.SilkS")
 		(uuid "3d0d678e-412d-4290-94ea-7c2cf61d268f")
@@ -69396,7 +69396,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "Clipper One DEV"
+	(gr_text "Clipper One"
 		(at 172.29 91.46 0)
 		(layer "F.SilkS")
 		(uuid "a388b460-fe62-4824-9391-8e62f0f8a4d8")
@@ -79343,6 +79343,14 @@
 		(layer "F.Cu")
 		(net 89)
 		(uuid "10b19665-d988-462f-8d77-c7a9a1762cf8")
+	)
+	(segment
+		(start 177.141924 120.621924)
+		(end 177.141924 120.15)
+		(width 0.2032)
+		(layer "F.Cu")
+		(net 89)
+		(uuid "237f315a-a136-4c81-aaa5-e13705eb6a27")
 	)
 	(segment
 		(start 174.28 120.15)
